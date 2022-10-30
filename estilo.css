@@ -1,0 +1,77 @@
+body{
+    background-color: #004443;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    overflow: hidden;
+}
+
+.area_login{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -190px;
+    margin-left: -200px;
+    background-color: rgba(0, 46, 52, 0.6);
+    width: 355px;
+    height: 320px;
+    border-radius: 8px;
+    padding: 35px;
+}
+
+.login form{
+    display: flex; 
+    width: 100%;
+    flex-direction: column;
+}
+
+.login input{
+    margin-top: 10px;
+    background-color: #00c16c;
+    padding-left: 10px;
+    color: #002e34;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.login img{
+    width: 90px;
+}
+
+input::placeholder{
+    color: #002e34;
+    font-size: 14px;
+    
+}
+
+form [type="submit"]{
+    display: block;
+    background-color: #00755c;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+p{
+    color: #00c16c;
+    text-decoration: none;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: #90ff17;
+}
+.logo{
+    padding-left: 125px;
+}
+.crie_conta{
+    padding-left: 60px;
+}
